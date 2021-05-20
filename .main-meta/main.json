@@ -4,27 +4,27 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.avr128db48-hello-world-mplab-mcc",
-        "version": "",
-        "displayName": "",
+        "version": "1.0.0",
+        "displayName": "Hello World LED",
         "projectName": "avr128db48-hello-world-mplab-mcc",
-        "shortDescription": "",
+        "shortDescription": "This example uses the MCC Melody Library to turn on a LED using the PORT Peripheral.",
         "ide": {
             "name": "MPLAB X",
-            "semverRange": ""
+            "semverRange": ">=5.45.0"
         },
         "compiler": [
             {
                 "name": "XC8",
-                "semverRange": ""
+                "semverRange": "^2.32.0"
             }
         ],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "AVR-Dx_DFP",
+            "semverRange": "^1.7.98"
         },
         "configurator": {
-            "name": "",
-            "semverRange": ""
+            "name": "MCC",
+            "semverRange": ">=4.1.0"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -32,16 +32,24 @@
             "content": {
                 "metaDataVersion": "1.0.0",
                 "category": "com.microchip.device",
-                "name": "",
+                "name": "AVR128DB48",
                 "versionRange": "*"
             }
         },
-        "author": "",
+        "author": "Amund Aune",
         "subcategories": [
+            [
+                "Peripherals", "PORT"
+            ]
         ],
         "peripherals": [
+            "PORT"
         ],
         "keywords": [
+            "PORT",
+            "LED",
+            "Curiosity Nano",
+            "Melody"
         ],
         "additionalData": {
             "longDescription": {
